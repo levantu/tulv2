@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/bg_slide_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/img_user">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="16dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_hello"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_list_program"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_menu_textview"
+            android:drawableLeft="@drawable/menu_message_management"
+            android:drawablePadding="38dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/menu_list_program"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/text_color_grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_send_message"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_menu_textview"
+            android:drawableLeft="@drawable/menu_send_message"
+            android:drawablePadding="38dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/menu_send_message"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/text_color_grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_add_cash"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_menu_textview"
+            android:drawableLeft="@drawable/menu_account_manager"
+            android:drawablePadding="38dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/menu_add_cash"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/text_color_grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_logout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_menu_textview"
+            android:drawableLeft="@drawable/menu_logout"
+            android:drawablePadding="38dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="@string/menu_logout"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/text_color_grey"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1E1E1E" />
+    </LinearLayout>
+</ScrollView>

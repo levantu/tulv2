@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Brand Name</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_hello">Xin chào bạn</string>
+    <string name="menu_my_name">Quản lý thương hiệu</string>
+    <string name="menu_contact">Danh bạ</string>
+    <string name="menu_list_program">Danh sách chương trình</string>
+    <string name="menu_send_message">Tạo tin nhắn mới</string>
+    <string name="menu_pending_message">Tin nhắn chờ gửi</string>
+    <string name="menu_sent_message">Tin nhắn đã gửi</string>
+    <string name="menu_account_management">Quản lý tài khoản</string>
+    <string name="menu_add_cash">Nạp thẻ</string>
+    <string name="menu_introduction">Hướng dẫn sử dụng</string>
+    <string name="menu_price_policy">Chính sách giá</string>
+    <string name="menu_term_of_service">Điều khoản sử dụng</string>
+    <string name="menu_logout">Đăng xuất</string>
+    <string name="menu_action_search">Tìm kiếm</string>
+    <string name="menu_action_new_message">Tin nhắn mới</string>
+
+    <!-- nạp thẻ cào -->
+    <string name="add_cash_title">Nạp tiền vào tài khoản</string>
+    <string name="add_cash_type">Chọn hình thức</string>
+    <string name="add_cash_card_password">Mã thẻ cào</string>
+    <string name="add_cash_card_password_hint">Nhập mã</string>
+    <string name="add_cash_card_number">Số serial</string>
+    <string name="add_cash_card_number_hint">Nhập số</string>
+    <string name="add_cash_btn_ok">Nạp</string>
+    <string name="add_cash_card_password_error">Mã thẻ cào không được để trống</string>
+    <string name="add_cash_card_number_error">Số serial không được để trống</string>
+
+    <string-array name="add_cash_types">
+        <item>Thẻ điện thoại</item>
+    </string-array>
+
+    <!-- Login -->
+    <string name="btn_login">Đăng nhập</string>
+    <string name="edt_username_hint">User name</string>
+    <string name="btn_get_otp">Lấy mã</string>
+    <string name="edt_password_hint">Password</string>
+    <string name="login_message_fail">Thông tin đăng nhập không hợp lệ</string>
+    <string name="login_empty_error">Bạn phải điền đầy đủ thông tin</string>
+    <string name="phone_number_invalid">Số điện thoại không hợp lệ</string>
+    <string name="not_enter_phone">Bạn chưa nhập số điện thoại</string>
+    <string name="please_wait">Vui lòng chờ..</string>
+    <string name="start">Bắt đầu</string>
+    <string name="ignore">Bỏ qua</string>
+    <string name="pass_login">Lock&amp;lock1a@</string>
+
+    <!-- Phan thong bao loi -->
+    <string name="no_connection">Không có kết nối mạng.</string>
+    <string name="no_result">Không có kết quả</string>
+    <string name="error">Không thể kết nối đến dữ liệu, Quý khách vui lòng thử lại sau.</string>
+    <string name="no_data_has_retry">Không có dữ liệu.</string>
+    <string name="no_connection_has_retry">Không có kết nối mạng.\nNhấn vào đây để thử lại.</string>
+    <string name="un_authenticated">Xác thực thuê bao thất bại. Vui lòng đăng nhập lại để sử dụng ứng dụng.</string>
+    <string name="un_authenticated_has_retry">Xác thực thuê bao thất bại.\nNhấn vào đây để đăng nhập lại.</string>
+    <string name="popup_unauthenticated_has_retry">Xác thực thuê bao thất bại. Nhấn vào đồng ý để đăng nhập lại.</string>
+    <string name="error_has_retry">Không thể kết nối đến dữ liệu.\nNhấn vào đây để thử lại.</string>
+
+    <!-- Gửi tin nhắn -->
+    <string name="send_sms_title">Tin nhắn mới</string>
+    <string name="send_sms_edit">Sửa tin nhắn</string>
+    <string name="send_sms_hint">Nhập nội dung</string>
+    <string name="send_sms_error_content">Quý khách chưa nhập nội dung tin nhắn</string>
+    <string name="send_sms_error_receiver">Quý khách chưa nhập trường gửi</string>
+    <string name="send_sms_error_my_name">Thương hiệu không hợp lệ</string>
+    <string name="send_sms_group_hint">Nhập người nhận</string>
+    <string name="send_sms_alarm_title">Hẹn giờ gửi tin</string>
+    <string name="send_sms_alarm_content">Tin nhắn sẽ được gửi vào: </string>
+    <string name="send_sms">Gửi tin nhắn</string>
+    <string name="send_sms_no_brands">Quý khách chưa đăng ký thương hiệu nào.\nVui lòng đăng ký thương hiệu để sử dụng tính năng này.</string>
+    <string name="send_sms_pending_brands">Thương hiệu của quý khách chưa được phê duyệt hoặc bị khóa nên quý khách không thể sử dụng tính năng này.</string>
+    <string name="daystarterror">Ngày bắt đầu không được lớn hơn ngày hiện tại</string>
+    <string name="dayenderror">Ngày kết thúc không được lớn hơn ngày hiện tại</string>
+    <string name="dayenderror1">Ngày kết thúc phải lớn hơn ngày bắt đầu</string>
+    <string name="dayenderror2">Ngày bắt đầu và ngày kết thúc phải cùng trong 1 tháng</string>
+    <string name="day">ngày</string>
+    <string name="month">tháng</string>
+    <string name="year">năm</string>
+    <string name="hours">giờ</string>
+    <string name="minute">phút</string>
+    <string name="now">lúc</string>
+    <string name="select_receiver_title">Lựa chọn đích đến</string>
+    <string name="send_sms_receiver_duplicated">Đích đến đã được lựa chọn</string>
+    <string name="send_sms_phone">Số điện thoại</string>
+    <string name="send_sms_group">Nhóm</string>
+
+    <!-- Đăng ký thương hiệu -->
+    <string name="register_myname_des">Để gửi tin nhắn thương hiệu cá nhân, bạn hãy chọn đăng ký những tên theo mong muốn</string>
+    <string name="register_myname_hint">Nhập tên thương hiệu</string>
+    <string name="register_myname">ĐĂNG KÝ THƯƠNG HIỆU CÁ NHÂN</string>
+    <string name="register_myname_error">Tên thương hiệu đã có người dùng</string>
+    <string name="register_myname_over_max">Độ dài thương hiệu phải nhỏ hơn 12</string>
+    <string name="register_myname_not_valid">Tên thương hiệu không hợp lệ</string>
+    <string name="register_myname_not_enter_name">Bạn chưa nhập tên thương hiệu</string>
+    <string name="register_myname_confirm">Đăng ký sử dụng tên thương hiệu cá nhân: %1$s với chi phí %2$s VNĐ?</string>
+
+    <string name="preference_name">shares_pre_my_name</string>
+    <!-- Phan gioi thieu -->
+    <string-array name="intro_titles">
+        <item>Chào mừng bạn tới với Myname</item>
+        <item>Gửi SMS hiển thị Thương hiệu khác biệt</item>
+        <item>Gửi tới nhiều người nhanh chóng</item>
+        <item>Chủ động ngân sách</item>
+    </string-array>
+    <string-array name="intro_des">
+        <item>Myname là dịch vụ Nhắn tin hiển thị Thương hiệu cá nhân do người sử dụng tự đăng ký</item>
+        <item>Thay vì hiển thị các số điện thoại hoặc tên trong danh bạ của người nhận, tin nhắn thương hiệu sẽ hiển thị tên do bạn lựa chọn</item>
+        <item>Dễ dàng gửi tin nhắn tới nhóm và cá nhân, đồng thời có thể cài đặt trong thời gian gửi đúng thời điểm mong muốn</item>
+        <item>Các thông tin nạp tiền, gửi tin nhắn cá nhân, nhóm, số tin nhắn đã mua, đã gửi..sẽ được lưu lại để bạn tra cứu và chủ động quản lý tài chính của mình</item>
+    </string-array>
+
+    <string name="splash_des">Gửi SMS bằng tên thương hiệu</string>
+    <string name="splash_text1">MY</string>
+    <string name="splash_text2">NAME</string>
+
+    <string name="alert">Thông báo</string>
+    <string name="loading">Đang xử lý</string>
+</resources>

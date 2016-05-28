@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <EditText
+        android:id="@+id/edit_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="70dp"
+        android:drawableLeft="@drawable/ico_mobile"
+        android:drawablePadding="4dp"
+        android:hint="@string/edt_username_hint"
+        android:inputType="text"
+        android:maxLength="15"
+        android:paddingLeft="10dp"
+        android:text="phucvm1"
+        android:textColor="@android:color/black"
+        android:textSize="14sp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/edit_user_name"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ico_password"
+        android:drawablePadding="4dp"
+        android:hint="@string/edt_password_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:text="@string/pass_login"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edit_password"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button_register_myname"
+        android:text="@string/btn_login"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

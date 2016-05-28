@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.viettel.myname.HomeActivity">
+    <item
+        android:id="@+id/action_new_message"
+        android:icon="@drawable/ico_newsms"
+        android:orderInCategory="100"
+        android:title="@string/menu_action_new_message"
+        app:showAsAction="always" />
+
+</menu>
